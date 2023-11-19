@@ -1,0 +1,18 @@
+Atividade Semana 15 (ATS15) para entrega
+usar route '/'
+DATABASE= eventosSuaMatriculaAts15
+
+
+
+1) Crie um projeto Laravel chamado eventosSuaMatriculaAts15 
+2) Crie um modelo e uma migração
+3) No arquivo de migração criado em database/migrations adicione as colunas nome do evento,
+data do evento, cidade, privado ou público, descrição do evento. Eles serão os campos do evento
+4) Qual o comando para rodar as migrações?
+    php artisan migrate
+5) Crie uma rota para exibir o formulário para criar eventos.
+No arquivo routes/web.php adicione uma rota para exibir o formulário
+6) Crie um controlador chamado EventoController usando o comando artisan
+7) implemente o método create no controlador
+8) Implemente o método store no controlador
+9) Exiba feedback ao usuário
